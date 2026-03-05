@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback, useMemo } from "react";
 const birthdayImg2 = "/start.jpg";  // slide 2 (annoying)
 const birthdayImg3 = "/blue.jpg";  // slide 3 (everyone left)
 const birthdayImg4 = "/pig.jpg";  // slide 4 (akka too much)
-const birthdayImg5 = "/download.jpg";  // slide 5 (grateful)
+const birthdayImg5 = "/last.jpg";  // slide 5 (grateful)
 const birthdayImg6 = "/red.jpg";  // slide 6 (thank you)
 const birthdayImgFinal = "/final.jpg"; // final screen
 
@@ -337,8 +337,8 @@ const SLIDES = [
     render: (next) => (
       <Slide>
         <span style={T.tag}>🌘 waning moon</span>
-        <Photo src={birthdayImg4} caption='"Akka you are TOO MUCH" — Me, 50+ times 😂'/>
-        <p style={T.body}>But never gave up on me ❤️🌙</p>
+        <Photo src={birthdayImg4} caption='"Akka, you are TOO MUCH 😭 '/>
+        <p style={T.body}>At this point I think I need a collar rope just to control your unlimited energy😂 but you tried to be there for me always ka ❤️🌙</p>
         <Btn onClick={next}>Getting bored of this uh? 😏</Btn>
       </Slide>
     )
