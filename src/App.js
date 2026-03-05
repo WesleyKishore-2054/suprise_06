@@ -376,7 +376,7 @@ const SLIDES = [
             </li>
           ))}
         </ul>
-        <Btn onClick={next} variant="silver">🌕 I wish you good things in your 26</Btn>
+        <Btn onClick={next} variant="silver">🌕 I wish you good things in your 25</Btn>
       </Slide>
     )
   },
